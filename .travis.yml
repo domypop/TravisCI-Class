@@ -2,7 +2,7 @@ language: csharp
 solution: TravisCI.sln
 branches:
   only:
-  - master
+  - main
 install:
   - nuget restore TravisCI.sln
 script:
